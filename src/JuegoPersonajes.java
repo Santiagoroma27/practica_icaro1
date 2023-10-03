@@ -1,9 +1,9 @@
 public class JuegoPersonajes {
     public static void main(String[] args) {
         // Instancias de personajes
-        Espadachin espadachin = new Espadachin(900, 15000000); // Asigna un valor numérico adecuado al ataque y la salud del guerrero.
-        Torre torre = new Torre(120000, 85); // Asigna un valor numérico adecuado al nivel y la salud de la torre
-        Mago mago = new Mago(800, 18500); // Asigna un valor numérico adecuado a la magia y la salud del mago.
+        Espadachin espadachin = new Espadachin(9, 1); // Asigna un valor numérico adecuado al ataque y la salud del guerrero.
+        Torre torre = new Torre(120, 85); // Asigna un valor numérico adecuado al nivel y la salud de la torre
+        Mago mago = new Mago(80, 18); // Asigna un valor numérico adecuado a la magia y la salud del mago.
 
         // Stats de los personajes originales
         mostrarInformacionPersonajes(espadachin, torre, mago);
